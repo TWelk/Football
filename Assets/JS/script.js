@@ -1,4 +1,4 @@
-const seasonScheduleAPI = "https://api.sportradar.us/nfl/official/trial/v5/en/games/2022/REG/schedule.json?api_key=xywbpqjaddddgejnq8gjqmsn"
+const seasonScheduleAPI = "https://api.sportradar.us/nfl/official/trial/v7/en/games/2022/REG/schedule.json?api_key=xywbpqjaddddgejnq8gjqmsn"
 const weeklySchedule = "https://api.sportradar.us/nfl/official/trial/v5/en/games/2022/reg/02/schedule.JSON?api_key=xywbpqjaddddgejnq8gjqmsn"
     // const seasonSchedule = {
     //     scheduled: '',
