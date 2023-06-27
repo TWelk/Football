@@ -1,4 +1,5 @@
 /* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,23 +8,22 @@
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
 
 header {
-  top: 0;
-  position: sticky;
+    top: 0;
+    position: sticky;
 }
+
 
 /* End Global Styles */
 
 .bg {
     /* The image used */
     background-image: url(../Images/background.jpg);
-  
     /* Full height */
-    height: 100%; 
-  
+    height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -31,109 +31,141 @@ header {
 }
 
 .navbar {
-  margin: 0px;
-  padding: 0px;
-  position: sticky;
-  display: flex;
-  justify-content: flex-end;
-  background-color: black;
-  color: white;
+    margin: 0px;
+    padding: 0px;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
 }
 
 .navbar a {
-  margin: 5px;
-  padding: 10px;
-  color: white;
+    margin: 5px;
+    padding: 10px;
+    color: white;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-  /* height: 88.9%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* height: 88.9%; */
 }
 
 #standings {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 25%;
-  text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+    text-align: center;
 }
 
-#standings tr:nth-child(even){
-  background-color: #f2f2f2;
+#standings tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 .tableTitle {
-  font-size: xx-large;
+    font-size: xx-large;
 }
 
 .modal {
-  top: 55px;
-  height: 80%;
+    top: 55px;
+    height: 80%;
 }
 
 .modal-dialog {
-  pointer-events: auto;
+    pointer-events: auto;
 }
 
 .modal::backdrop {
-  background: rgb(0 0 0/ .4);
+    background: rgb(0 0 0/ .4);
 }
 
 #weekTitle {
-  background-color: white;
-  
+    background-color: white;
 }
 
-.selectTeam{
-  margin: 0px;
+#weeklyPicks {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+#weeklyPicks tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#weeklyPicks th,
+#weeklyPicks tr,
+#weeklyPicks td {
+    border-width: 3px;
+    padding: 5px;
+}
+
+.selectTeam {
+    margin: 0px;
 }
 
 .games {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5px;
-  padding: 5px;
-  border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    padding: 5px;
+    border: solid black 3px;
 }
 
-.week1, .week2, .week3, .week4, 
-.week5, .week6, .week7, .week8, 
-.week9, .week10, .week11, .week12, 
-.week13, .week14, .week15, .week16, 
-.week17, .week18 {
-  display: none;
+.week1,
+.week2,
+.week3,
+.week4,
+.week5,
+.week6,
+.week7,
+.week8,
+.week9,
+.week10,
+.week11,
+.week12,
+.week13,
+.week14,
+.week15,
+.week16,
+.week17,
+.week18 {
+    display: none;
 }
 
 .active {
-  display: inline;
+    display: inline;
 }
 
 button {
-  margin: 40px;
-  padding: 9px;
-  font-size: 23px;
-  cursor: pointer;
+    margin: 40px;
+    padding: 9px;
+    font-size: 23px;
+    cursor: pointer;
 }
 
-footer, footer a {
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: sticky;
-  background-color: black;
-  color: white;
+footer,
+footer a {
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    background-color: black;
+    color: white;
 }
 
 footer p {
-  margin: 0px;
-  margin-bottom: 0rem;
+    margin: 0px;
+    margin-bottom: 0rem;
 }
